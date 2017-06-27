@@ -12,7 +12,6 @@
 <br />
 Using awsdomainapi is easy, simply export IAM environment variables for route53 access. 
 <br>Then integrate/install package into your app, then simply run this app by typing below:
-<br>This is developed from scratch, meaning your chances of finding something opensource out there that mirrors this atm is slim to none.
 
 ## Setup IAM Access for runtme environment: 
 <i>See here for instaling pip - https://pip.pypa.io/en/stable/installing/</i>
