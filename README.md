@@ -1,18 +1,18 @@
 <p align="center"><img width=12.5% src="http://sudirlaycoders.com/files/sclogo.png"></p>
-<p align="center"><h1>awsdomainapi - v1.2.3</h1></p>
+<p align="center"><h1>awsdomainchecker - v1.0.0</h1></p>
 <p align="center"><i>Query Domain Name availability with node.js via Amazon Web Services SDK. 
 <br />Compatible with any Node.js app, just integrate this into your application. This is great for use with dns management, domain reservation services, or more advanced logic.</i></p>
 
 
 ## Basic Overview
-[![Awsdomainapi License](https://img.shields.io/badge/Licensed-Matt%20Trotter-orange.svg)](https://github.com/sudir/awsdomainapi/blob/master/LICENSE.txt)
-[![awsdomainapi](https://img.shields.io/badge/awsdomainapi-npm-blue.svg)](https://www.npmjs.com/package/awsdomainapi)
+[![Awsdomainapi License](https://img.shields.io/badge/Licensed-Matt%20Trotter-orange.svg)](https://github.com/sudir/awsdomainchecker/blob/master/LICENSE.txt)
+[![awsdomainchecker](https://img.shields.io/badge/awsdomainchecker-npm-blue.svg)](https://www.npmjs.com/package/awsdomainchecker)
 [![SudirlayCoders](https://img.shields.io/badge/SudirlayCoders-Experts-brightgreen.svg)](http://www.sudirlaycoders.com)
-[![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.2.3-red.svg)]()
+[![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.0.0-red.svg)]()
 
 <br />
-Using awsdomainapi is easy :stuck_out_tongue_winking_eye:, simply export IAM environment variables for route53 access, 
-<br>require my module <i>(awsdomainapi)</i> in your app and your all done!
+Using awsdomainchecker is easy :stuck_out_tongue_winking_eye:, simply export IAM environment variables for route53 access, 
+<br>require my module <i>(awsdomainchecker)</i> in your app and your all done!
 
 ## Setup IAM Access for runtme environment security 
 <i>See here for instaling pip - https://pip.pypa.io/en/stable/installing/</i>
@@ -21,18 +21,18 @@ pip install awscli
 aws configure
 ```
 
-##### Installing awsdomainapi: standard npm installation
+##### Installing awsdomainchecker: standard npm installation
 ```bash
-npm install awsdomainapi
+npm install awsdomainchecker
 ```
 
 ##### Application integration: In your main app.js file, require this module
 ```javascript
-const awsdomainapi = require('awsdomainapi');
+const awsdomainchecker = require('awsdomainchecker');
 ```
 
 ## Making changes to listening port
-<i>Locate the node_modules folder where you have my module 'awsdomainapi', edit the index.js and change listening port</i> 
+<i>Locate the node_modules folder where you have my module 'awsdomainchecker', edit the index.js and change listening port</i> 
 ```javascript
 port = 8135;
 app.listen(port);
