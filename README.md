@@ -1,5 +1,5 @@
 <p align="center"><img width=12.5% src="http://sudirlaycoders.com/files/sclogo.png"></p>
-<p align="center"><h1>awsdomainapi - v1.2.2</h1></p>
+<p align="center"><h1>awsdomainapi - v1.2.3</h1></p>
 <p align="center"><i>Query Domain Name availability with node.js via Amazon Web Services SDK. 
 <br />Compatible with any Node.js app, just integrate this into your application. This is great for use with dns management, domain reservation services, or more advanced logic.</i></p>
 
@@ -8,7 +8,7 @@
 [![Awsdomainapi License](https://img.shields.io/badge/Licensed-Matt%20Trotter-orange.svg)](https://github.com/sudir/awsdomainapi/blob/master/LICENSE.txt)
 [![awsdomainapi](https://img.shields.io/badge/awsdomainapi-npm-blue.svg)](https://www.npmjs.com/package/awsdomainapi)
 [![SudirlayCoders](https://img.shields.io/badge/SudirlayCoders-Experts-brightgreen.svg)](http://www.sudirlaycoders.com)
-[![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.2.2-red.svg)]()
+[![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.2.3-red.svg)]()
 
 <br />
 Using awsdomainapi is easy :stuck_out_tongue_winking_eye:, simply export IAM environment variables for route53 access, 
@@ -37,7 +37,27 @@ const awsdomainapi = require('awsdomainapi');
 port = 8135;
 app.listen(port);
 ```
+## See the neatly coded brains of my index.js
+```javascript
+app.use(bodyparser.urlencoded({extended: true}));
+app.use(bodyparser.json());
 
+
+
+app.get('/', function(req, res){
+    console.log('GET /')
+
+  const html = fs.readFileSync('index.html');
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.end(html);
+});
+
+app.post('/', function(req, res){
+    console.log('POST /');
+    console.dir(req.body);
+const route53domains = new AWS.Route53Domains();
+res.writeHead(200, {'Content-Type': 'text/html'});
+```
 ## How to test Domain availability?
 
 #### 
