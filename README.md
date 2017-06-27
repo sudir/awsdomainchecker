@@ -1,7 +1,7 @@
 <p align="center"><img width=12.5% src="http://sudirlaycoders.com/files/sclogo.png"></p>
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg)]()
-[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)]()
-[![awsdomainapi](https://img.shields.io/chrome-web-store/v/nimelepbpejjlbmoobocpfnjhihnpked.svg)](https://www.npmjs.com/package/awsdomainapi)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg)](http://www.sudirlaycoders.com)
+[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)](https://www.npmjs.com/package/awsdomainapi)
+
 
 <p align="center"><h1>awsdomainapi - v1.0.1</h1></p>
 <p align="center"><i>Query Domain Name availability with node.js via Amazon Web Services SDK. Compatible with any Node.js app, just integrate this into your application.
@@ -15,13 +15,14 @@ Using awsdomainapi is easy, simply export IAM environment variables for route53 
 <br>Then integrate/install package into your app, then simply run this app by typing below:
 <br>
 
-## Setup IAM Access for runtme environment, see here for instaling pip: https://pip.pypa.io/en/stable/installing/
+## Setup IAM Access for runtme environment, see here for instaling pip: 
+<i>https://pip.pypa.io/en/stable/installing/</i>
 ```
 pip install awscli
 aws configure
 ```
 
-## Install awsdomainapi, in the same directory where awsdomainapi is located type:
+##### Install awsdomainapi, in the same directory where awsdomainapi is located type:
 ```
 npm install awsdomainapi
 ```
