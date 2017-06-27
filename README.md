@@ -46,4 +46,4 @@ curl -d "DomainName=domain.com" localhost:8135
 ```
 
 <i>More to come soon....</i>
-The End - Invented By: <i>Matthew Trotter {C.E.O SudirlayCoders}</i>
+<br />The End - Invented By: <i>Matthew Trotter {C.E.O SudirlayCoders}</i>
