@@ -1,5 +1,5 @@
 <p align="center"><img width=12.5% src="http://sudirlaycoders.com/files/sclogo.png"></p>
-<p align="center"><h1>awsdomainchecker - v1.0.2</h1></p>
+<p align="center"><h1>awsdomainchecker - v1.0.3</h1></p>
 <p align="center"><i>Query Domain Name availability with node.js via Amazon Web Services SDK. 
 <br />Compatible with any Node.js app, just integrate this into your application. This is great for use with dns management, domain reservation services, or more advanced logic.</i></p>
 
@@ -8,7 +8,7 @@
 [![Awsdomainapi License](https://img.shields.io/badge/Licensed-Matt%20Trotter-orange.svg)](https://github.com/sudir/awsdomainchecker/blob/master/LICENSE.txt)
 [![awsdomainchecker](https://img.shields.io/badge/awsdomainchecker-npm-blue.svg)](https://www.npmjs.com/package/awsdomainchecker)
 [![SudirlayCoders](https://img.shields.io/badge/SudirlayCoders-Experts-brightgreen.svg)](http://www.sudirlaycoders.com)
-[![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.0.2-red.svg)]()
+[![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.0.3-red.svg)]()
 
 
 <ul> Required IAM setup
@@ -75,6 +75,9 @@ forward to oauth integration coming soon, in the mean-time security is on you to
 ```
 curl -d "DomainName=domain.com" localhost:8135
 ```
-
+<i>You should get the returned output:</i>
+```javascript
+awsdomainchecker listening on http://localhost:8135
+```
 <i>More to come soon....</i>
 <br />Invented By: <i>Matthew Trotter {C.E.O SudirlayCoders}</i>
