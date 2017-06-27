@@ -1,6 +1,7 @@
 <p align="center"><img width=12.5% src="http://sudirlaycoders.com/files/sclogo.png"></p>
 <p align="center"><h1>awsdomainapi - v1.0.1</h1></p>
-<p align="center"><i><h4>- Query Domain Name availability with node.js via Amazon Web Services SDK for various tld sites. Compatible with any Node.js app, just integrate this into your application.</h4></i></p>
+<p align="center"><i>Query Domain Name availability with node.js via Amazon Web Services SDK. Compatible with any Node.js app, just integrate this into your application.
+<br />This is great for use with dns management, domain reservation services, or more advanced logic.</i></p>
 
 
 ## Basic Overview
@@ -10,7 +11,7 @@ Using awsdomainapi is easy, simply export IAM environment variables for route53 
 <br>
 
 ## Setup IAM Access for runtme environment
-```python
+```
 pip install awscli
 aws configure
 ```
@@ -31,4 +32,9 @@ Once running
 ```
 curl -d "DomainName=domain.com" localhost:8135
 ```
-
+The End - Invented By:
+ __  __       _   _   _                     _____          _   _            
+|  \/  | __ _| |_| |_| |__   _____      __ |_   _| __ ___ | |_| |_ ___ _ __ 
+| |\/| |/ _` | __| __| '_ \ / _ \ \ /\ / /   | || '__/ _ \| __| __/ _ \ '__|
+| |  | | (_| | |_| |_| | | |  __/\ V  V /    | || | | (_) | |_| ||  __/ |   
+|_|  |_|\__,_|\__|\__|_| |_|\___| \_/\_/     |_||_|  \___/ \__|\__\___|_|   
