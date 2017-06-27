@@ -31,8 +31,10 @@ const AWS = require('awsdomainapi');
 ```
 
 ## Making changes to listening port
+<i>Locate the node_modules folder where you have my module 'awsdomainapi', edit the index.js and change listening port</i> 
 ```
-Locate the node_modules folder where you have my module, edit the index.js for <i>listening port</i> 
+port = 8135;
+app.listen(port);
 ```
 
 ## How to test Domain availability?
