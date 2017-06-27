@@ -1,7 +1,6 @@
 <p align="center"><img width=12.5% src="http://sudirlaycoders.com/files/sclogo.png"></p>
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg)](http://www.sudirlaycoders.com)
 [![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)](https://www.npmjs.com/package/awsdomainapi)
-
+[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)]()
 
 <p align="center"><h1>awsdomainapi - v1.0.1</h1></p>
 <p align="center"><i>Query Domain Name availability with node.js via Amazon Web Services SDK. Compatible with any Node.js app, just integrate this into your application.
@@ -15,8 +14,8 @@ Using awsdomainapi is easy, simply export IAM environment variables for route53 
 <br>Then integrate/install package into your app, then simply run this app by typing below:
 <br>
 
-## Setup IAM Access for runtme environment, see here for instaling pip: 
-<i>https://pip.pypa.io/en/stable/installing/</i>
+## Setup IAM Access for runtme environment: 
+<i>See here for instaling pip - https://pip.pypa.io/en/stable/installing/</i>
 ```
 pip install awscli
 aws configure
@@ -27,7 +26,8 @@ aws configure
 npm install awsdomainapi
 ```
 
-## How to start running App, these are all various ways to run the app. See more on forever: https://github.com/foreverjs/forever
+## How to start running App, these are all various ways to run the app. 
+<i>See more on forever - https://github.com/foreverjs/forever</i>
 ```
 node index.js
 forever start index.js
@@ -43,4 +43,4 @@ Once running
 ```
 curl -d "DomainName=domain.com" localhost:8135
 ```
-The End - Invented By: Matthew Trotter {C.E.O SudirlayCoders}
+The End - Invented By: <mark>Matthew Trotter {C.E.O SudirlayCoders}</mark>
