@@ -11,12 +11,14 @@
     "url": "git+https://github.com/sudir/awsdomainapi.git"
   },
   "keywords": [
-    "domain",
+    "domain search",
     "dns",
-    "query",
-    "aws",
-    "aws",
-    "sdk"
+    "route 53 query",
+    "aws domain api",
+    "domain query",
+    "route 53 api",
+    "aws domain searcher",
+    "aws domain sdk"
   ],
   "author": "Matthew L. Trotter",
   "license": "ISC",
