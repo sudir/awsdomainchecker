@@ -45,5 +45,5 @@ else  res.end('This Domain is: ' + data.Availability);
 
 port = 8135;
 app.listen(port);
-console.log('Listening at http://localhost:' + port)
+console.log('awsdomainchecker listening at http://localhost:' + port)
 
