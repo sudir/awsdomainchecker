@@ -39,9 +39,11 @@ forever start index.js
 #### 
 During testing, simply use curl to generate post request only specifying the domain name with top level domain. <i>"domainname.tld"</i>. 
 <br />You can add sanitization around this from your application UI side once running. Contributors to this project should also be looking
-forward to oauth integration coming soon.
+forward to oauth integration coming soon, in the mean-time security is on you to sanitize for the time being.
 
 ```
 curl -d "DomainName=domain.com" localhost:8135
 ```
-The End - Invented By: <mark>Matthew Trotter {C.E.O SudirlayCoders}</mark>
+
+<i>More to come soon....</i>
+The End - Invented By: <i>Matthew Trotter {C.E.O SudirlayCoders}</i>
