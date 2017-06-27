@@ -1,5 +1,5 @@
 <p align="center"><img width=12.5% src="http://sudirlaycoders.com/files/sclogo.png"></p>
-<p align="center"><h1>awsdomainchecker - v1.0.1</h1></p>
+<p align="center"><h1>awsdomainchecker - v1.0.2</h1></p>
 <p align="center"><i>Query Domain Name availability with node.js via Amazon Web Services SDK. 
 <br />Compatible with any Node.js app, just integrate this into your application. This is great for use with dns management, domain reservation services, or more advanced logic.</i></p>
 
@@ -8,7 +8,12 @@
 [![Awsdomainapi License](https://img.shields.io/badge/Licensed-Matt%20Trotter-orange.svg)](https://github.com/sudir/awsdomainchecker/blob/master/LICENSE.txt)
 [![awsdomainchecker](https://img.shields.io/badge/awsdomainchecker-npm-blue.svg)](https://www.npmjs.com/package/awsdomainchecker)
 [![SudirlayCoders](https://img.shields.io/badge/SudirlayCoders-Experts-brightgreen.svg)](http://www.sudirlaycoders.com)
-[![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.0.1-red.svg)]()
+[![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.0.2-red.svg)]()
+
+
+<ul> Required IAM setup
+<li> <i>Need to configure IAM credentials with access to route53</i>
+</ul> 
 
 <br />
 Using awsdomainchecker is easy, simply export IAM environment variables for route53 access, 
@@ -16,6 +21,8 @@ Using awsdomainchecker is easy, simply export IAM environment variables for rout
 
 ## Setup IAM Access for runtme environment security 
 <i>See here for instaling pip - https://pip.pypa.io/en/stable/installing/</i>
+<br />
+<i>See here for configuring IAM policy for route53 - http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/access-control-managing-permissions.html</i>
 ```bash
 pip install awscli
 aws configure
