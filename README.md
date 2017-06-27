@@ -10,28 +10,30 @@
 [![SudirlayCoders](https://img.shields.io/badge/SudirlayCoders-Experts-brightgreen.svg)](http://www.sudirlaycoders.com)
 
 <br />
-Using awsdomainapi is easy, simply export IAM environment variables for route53 access. 
-<br>Integrate/install package into your app, then simply run this app by typing below:
+Using awsdomainapi is easy, simply export IAM environment variables for route53 access, 
+<br>require my module in your app and your all done!
 
-## Setup IAM Access for runtme environment: 
+## Setup IAM Access for runtme environment security 
 <i>See here for instaling pip - https://pip.pypa.io/en/stable/installing/</i>
 ```
 pip install awscli
 aws configure
 ```
 
-##### Install awsdomainapi, in the same directory where awsdomainapi is located type:
+##### Installing awsdomainapi: standard npm installation
 ```
 npm install awsdomainapi
 ```
 
-## How to start running App, these are all various ways to run the app. 
-<i>See more on forever - https://github.com/foreverjs/forever</i>
+##### Application integration: In your main app.js file, require this module
 ```
-node index.js
-forever start index.js
+const AWS = require('awsdomainapi');
 ```
-<br>
+
+## Making changes to listening port
+```
+Locate the node_modules folder where you have my module, edit the index.js for <i>listening port</i> 
+```
 
 ## How to test Domain availability?
 
