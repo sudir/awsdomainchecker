@@ -1,5 +1,5 @@
 // Created by: Matthew Trotter C.E.O www.SudirlayCoders.com licensed @sudirlaycoders.com 2017
-// Submission of the post body params are in consistency with the rules of Amazon Web Services SDK for route53
+// Submission of the post body params are in consistency with the rules of nodejs Amazon Web Services SDK for route53
 const express = require('express');
 const fs = require('fs');
 const app = express();
