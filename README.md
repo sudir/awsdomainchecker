@@ -1,7 +1,4 @@
 <p align="center"><img width=12.5% src="http://sudirlaycoders.com/files/sclogo.png"></p>
-[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)](https://www.npmjs.com/package/awsdomainapi)
-[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)]()
-
 <p align="center"><h1>awsdomainapi - v1.0.1</h1></p>
 <p align="center"><i>Query Domain Name availability with node.js via Amazon Web Services SDK. Compatible with any Node.js app, just integrate this into your application.
 <br />This is great for use with dns management, domain reservation services, or more advanced logic.</i></p>
@@ -9,6 +6,8 @@
 
 ## Basic Overview
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/sudir/awsdomainapi/blob/master/LICENSE.txt)
+[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)](https://www.npmjs.com/package/awsdomainapi)
+[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)]()
 
 Using awsdomainapi is easy, simply export IAM environment variables for route53 access. 
 <br>Then integrate/install package into your app, then simply run this app by typing below:
