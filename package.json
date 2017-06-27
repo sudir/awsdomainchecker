@@ -1,6 +1,6 @@
 {
   "name": "awsdomainapi",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Query Domain Name availability with node.js via Amazon Web Services SDK for various tld sites. Compatible with any Node.js app, just integrate this into your application.",
   "main": "index.js",
   "scripts": {
