@@ -8,6 +8,7 @@
 [![Awsdomainapi License](https://img.shields.io/badge/Licensed-Matt%20Trotter-orange.svg)](https://github.com/sudir/awsdomainapi/blob/master/LICENSE.txt)
 [![awsdomainapi](https://img.shields.io/badge/awsdomainapi-npm-blue.svg)](https://www.npmjs.com/package/awsdomainapi)
 [![SudirlayCoders](https://img.shields.io/badge/SudirlayCoders-Experts-brightgreen.svg)](http://www.sudirlaycoders.com)
+
 <br />
 Using awsdomainapi is easy, simply export IAM environment variables for route53 access. 
 <br>Then integrate/install package into your app, then simply run this app by typing below:
@@ -36,8 +37,9 @@ forever start index.js
 ## How to test Domain availability?
 
 #### 
-During testing, enter only the <i>"domainname.tld"</i>. You can add sanitization around this from your application UI side.
-Once running
+During testing, simply use curl to generate post request only specifying the domain name with top level domain. <i>"domainname.tld"</i>. 
+<br />You can add sanitization around this from your application UI side once running. Contributors to this project should also be looking
+forward to oauth integration coming soon.
 
 ```
 curl -d "DomainName=domain.com" localhost:8135
