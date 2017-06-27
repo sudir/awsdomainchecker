@@ -1,6 +1,6 @@
 {
   "name": "awsdomainchecker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Query Domain Name availability with node.js via Amazon Web Services SDK for various tld sites. Compatible with any Node.js app, just integrate this into your application. Make requests for domain availiability on the fly",
   "main": "index.js",
   "scripts": {
