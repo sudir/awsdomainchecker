@@ -8,6 +8,7 @@
 [![Awsdomainapi License](https://img.shields.io/badge/Licensed-Matt%20Trotter-orange.svg)](https://github.com/sudir/awsdomainapi/blob/master/LICENSE.txt)
 [![awsdomainapi](https://img.shields.io/badge/awsdomainapi-npm-blue.svg)](https://www.npmjs.com/package/awsdomainapi)
 [![SudirlayCoders](https://img.shields.io/badge/SudirlayCoders-Experts-brightgreen.svg)](http://www.sudirlaycoders.com)
+[![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.2.1-red.svg)]()
 
 <br />
 Using awsdomainapi is easy, simply export IAM environment variables for route53 access, 
