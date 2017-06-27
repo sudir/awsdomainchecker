@@ -7,8 +7,8 @@
 ## Basic Overview
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/sudir/awsdomainapi/blob/master/LICENSE.txt)
 [![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)](https://www.npmjs.com/package/awsdomainapi)
-[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)]()
-
+[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)](https://github.com/sudir/awsdomainapi)
+[![SudirlayCoders](https://img.shields.io/badge/SudirlayCoders-Experts-brightgreen.svg)](http://www.sudirlaycoders.com)
 Using awsdomainapi is easy, simply export IAM environment variables for route53 access. 
 <br>Then integrate/install package into your app, then simply run this app by typing below:
 <br>
