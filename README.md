@@ -42,7 +42,7 @@ const awsdomainchecker = require('awsdomainchecker');
 #### Running awsdomainchecker: After you require the module simply start your app 
 <i>Running it is easy, anytime your main app starts awsdomainchecker will auto-start</i>
 <i>You should get the returned output:</i>
-```javascript
+```bash
 awsdomainchecker listening on http://localhost:8135
 ```
 
@@ -81,12 +81,12 @@ During testing, simply use curl to generate post request only specifying the dom
 <br />You can add sanitization around this from your application UI side once running. Contributors to this project should also be looking
 forward to oauth integration coming soon, in the mean-time security is on you to sanitize for the time being.
 
-```
+```bash
 curl -d "DomainName=domain.com" localhost:8135
 ```
 
 <i>You should get the returned output:</i>
-```javascript
+```bash
 This Domain is: status <UNAVAILABLE> | <AVAILABLE>
 ```
 
