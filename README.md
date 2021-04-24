@@ -91,4 +91,4 @@ This Domain is: status <UNAVAILABLE> | <AVAILABLE>
 ```
 
 <i>More to come soon....</i>
-<br />Invented By: <i>Matthew Trotter {C.E.O SudirlayCoders}</i>
+<br />Invented By: <i>Sulayman Touray {C.E.O SudirlayCoders}</i>
