@@ -5,7 +5,7 @@
 
 
 ## Basic Overview
-[![Awsdomainapi License](https://img.shields.io/badge/Licensed-Matt%20Trotter-orange.svg)](https://github.com/sudir/awsdomainchecker/blob/master/LICENSE.txt)
+[![Awsdomainapi License](https://img.shields.io/badge/Licensed-Sulayman%20Touray-orange.svg)](https://github.com/sudir/awsdomainchecker/blob/master/LICENSE.txt)
 [![awsdomainchecker](https://img.shields.io/badge/awsdomainchecker-npm-blue.svg)](https://www.npmjs.com/package/awsdomainchecker)
 [![SudirlayCoders](https://img.shields.io/badge/SudirlayCoders-Experts-brightgreen.svg)](http://www.sudirlaycoders.com)
 [![Matt Trotter Code Gaurantee](https://img.shields.io/badge/Fully%20Tested-v1.0.4-red.svg)]()
